@@ -1,13 +1,6 @@
    
       /* Squeezepage FUNNEL Created By Richard Daris - http://blogginggurupro.blogspot.com */
- 
-      html, body {
-        margin: 0;
-        padding: 0;
-        background-color: white;
-      }
-
-#sales{background-color:#FFFFFF;border:none;bottom:0px;height:100%;left:0px;margin:0;padding:0;right:0px;top:0px;width:100%;z-index:999999;position:fixed;overflow-y:scroll;overflow-x:hidden;}
+ #sales{background-color:#FFFFFF;border:none;bottom:0px;height:100%;left:0px;margin:0;padding:0;right:0px;top:0px;width:100%;z-index:999999;position:fixed;overflow-y:scroll;overflow-x:hidden;}
       
       #top_bar {
         width: 100%;
