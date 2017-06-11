@@ -17,7 +17,7 @@
 }
       
       #top_bar {
-        width: 98%;
+        width: 90%;
         height: 38px;
         background-color: rgb(255,0,0,.7);
         color: white;
@@ -29,8 +29,6 @@
         text-transform: uppercase;
         position:fixed;
         top:0px;
-        left:0px;
-        right:10px;
         z-index:1000001;
       }
       
