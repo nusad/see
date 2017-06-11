@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <style>
+      
+      /* Squeezepage FUNNEL Created By Richard Daris - http://blogginggurupro.blogspot.com */
+        
+h1 {  
+  font-family: Arial, Helvetica, sans-serif;  
+  font-size: 54px;  
+  padding-top: 15px;  
+  padding-right: 15px;  
+  padding-bottom: 2px;  
+  padding-left: 15px;  
+  text-align: center;  
+  margin-top: 0px;  
+  margin-right: 0px;  
+  margin-bottom: 0px;  
+  margin-left: 0px;  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+}
+
+h2 {  
+  font-family: Arial, Helvetica, sans-serif;  
+  font-size: 30px;  
+  line-height: 34px;  
+  text-align: center;  
+  padding-bottom: 2px;  
+  padding-top: 2px;  
+  font-weight: bold;
+}
+
+h3 {  
+  font-family: Helvetica, sans-serif;
+  text-align: center;  
+  padding-top: 10px;  
+  padding-right: 10px;  
+  padding-bottom: 10px;  
+  padding-left: 10px; 
+  text-align: left;
+}
+
+.box {  
+  max-width: 670px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5); 
+  color: white;  
+  text-align: center;  
+  margin: 10px auto;  
+  -webkit-border-radius: 0px 0px 0px 0px;
+  border-radius: 0px 0px 0px 0px;  
+  padding-bottom: 16px !important;  
+  padding-top: 10px !important;  -webkit-box-shadow: 0px 8px 6px -6px black;
+  box-shadow: 0px 8px 6px -6px black;
+}
+
+input[type="text"], input[type="fldfirstname"], input[type="fldEmail"] {  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;  
+  border: 3px solid #ffcd05; 
+  height: 41px;  
+  width: 75%;  
+  margin-top: 10px;  
+  text-align: center;  
+  font-size: 20px;  
+  font-family: Arial;  
+  color: #666;  
+  background-color: white;
+}
+
+button, input[type="submit"] {  
+  position: relative;
+  width: 75%;  
+  margin-top: 10px;  
+  background-color: #fc0;   
+  border: 0;
+  font-family: Arial, Helvetica, sans-serif;  
+  font-size: 30px;  
+  cursor: pointer;
+  border: 2px solid #fb0;
+        -webkit-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;  -webkit-box-shadow: 0px 1px 0px 0px rgba(250, 250, 250, 0.7) inset;
+  box-shadow: 0px 1px 0px 0px rgba(250, 250, 250, 0.7) inset;  
+  padding: 10px;  
+  color: black;
+}
+
+button:hover, input[type="submit"]:hover {  
+  background-color: #fd0;
+}
+      
+body{
+  padding: 0;
+	background: #000;
+	color: transparent;
+  overflow: hidden;
+}
+
+.container{
+  position: relative;
+  top: 0;
+  left: 0;
+	text-align: center;
+}
+      
+.cb-slideshow,
+.cb-slideshow:after { 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0; 
+}
+      
+.cb-slideshow:after { 
+    content: '';
+    background: transparent url(pattern.png) repeat top left; 
+}
+      
+.cb-slideshow li span { 
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: none;
+    opacity: 0;
+    z-index: 0;
+	-webkit-backface-visibility: hidden;
+    -webkit-animation: imageAnimation 36s linear infinite 0s;
+    -moz-animation: imageAnimation 36s linear infinite 0s;
+    -o-animation: imageAnimation 36s linear infinite 0s;
+    -ms-animation: imageAnimation 36s linear infinite 0s;
+    animation: imageAnimation 36s linear infinite 0s; 
+}
+
+.cb-slideshow li:nth-child(1) span { 
+    background-image: url(1.jpg) 
+}
+.cb-slideshow li:nth-child(2) span { 
+    background-image: url(2.jpg);
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s; 
+}
+.cb-slideshow li:nth-child(3) span { 
+    background-image: url(3.jpg);
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    animation-delay: 12s; 
+}
+.cb-slideshow li:nth-child(4) span { 
+    background-image: url(4.jpg);
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s; 
+}
+.cb-slideshow li:nth-child(5) span { 
+    background-image: url(5.jpg);
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    -o-animation-delay: 24s;
+    -ms-animation-delay: 24s;
+    animation-delay: 24s; 
+}
+.cb-slideshow li:nth-child(6) span { 
+    background-image: url(6.jpg);
+    -webkit-animation-delay: 30s;
+    -moz-animation-delay: 30s;
+    -o-animation-delay: 30s;
+    -ms-animation-delay: 30s;
+    animation-delay: 30s; 
+}
+
+/* Animation for the slideshow images */
+@-webkit-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -webkit-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -webkit-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@-moz-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -moz-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -moz-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@-o-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -o-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -o-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@-ms-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -ms-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -ms-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@keyframes imageAnimation { 
+    0% { opacity: 0;
+    animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+      
+      .privacy {
+        color: #ccc;
+        font-size: 12px;  
+        text-align: center;  
+        margin-top: 4px;
+        font-family: Helvetica, sans-serif;
+      }
+      
+      @media(max-width: 480px) {
+        h1 {font-size: 32px;}
+        h2 {font-size: 26px;}
+        h3 {font-size: 16px;}
+        input[type="text"], input[type="fldfirstname"], input[type="fldEmail"] {font-size: 15px;}
+        button, input[type="submit"] {font-size: 20px;}
+      }
+            
+      @media(max-width: 320px) {
+        h1 {font-size: 30px;}
+        h2 {font-size: 24px;}
+        h3 {font-size: 14px;}
+        input[type="text"], input[type="fldfirstname"], input[type="fldEmail"] {font-size: 12px;}
+        button, input[type="submit"] {font-size: 16px;}
+      }
+
+</style>
+<script type="text/javascript">
+function CheckField855937(fldName, frm){ if ( frm[fldName].length ) { for ( var i = 0, l = frm[fldName].length; i < l; i++ ) {  if ( frm[fldName].type =='select-one' ) { if( frm[fldName][i].selected && i==0 && frm[fldName][i].value == '' ) { return false; }  if ( frm[fldName][i].selected ) { return true; } }  else { if ( frm[fldName][i].checked ) { return true; } }; } return false; } else { if ( frm[fldName].type == "checkbox" ) { return ( frm[fldName].checked ); } else if ( frm[fldName].type == "radio" ) { return ( frm[fldName].checked ); } else { frm[fldName].focus(); return (frm[fldName].value.length > 0); }} }
+function rmspaces(x) {var leftx = 0;var rightx = x.length -1;while ( x.charAt(leftx) == ' ') { leftx++; }while ( x.charAt(rightx) == ' ') { --rightx; }var q = x.substr(leftx,rightx-leftx + 1);if ( (leftx == x.length) && (rightx == -1) ) { q =''; } return(q); }
+function checkfield(data) {if (rmspaces(data) == ""){return false;}else {return true;}}
+function isemail(data) {var flag = false;if (  data.indexOf("@",0)  == -1 || data.indexOf("\\",0)  != -1 ||data.indexOf("/",0)  != -1 ||!checkfield(data) ||  data.indexOf(".",0)  == -1  ||  data.indexOf("@")  == 0 ||data.lastIndexOf(".") < data.lastIndexOf("@") ||data.lastIndexOf(".") == (data.length - 1)   ||data.lastIndexOf("@") !=   data.indexOf("@") ||data.indexOf(",",0)  != -1 ||data.indexOf(":",0)  != -1 ||data.indexOf(";",0)  != -1  ) {return flag;} else {var temp = rmspaces(data);if (temp.indexOf(' ',0) != -1) { flag = true; }var d3 = temp.lastIndexOf('.') + 4;var d4 = temp.substring(0,d3);var e2 = temp.length  -  temp.lastIndexOf('.')  - 1;var i1 = temp.indexOf('@');if (  (temp.charAt(i1+1) == '.') || ( e2 < 1 ) ) { flag = true; }return !flag;}}
+function CheckFieldD855937(fldH, chkDD, chkMM, chkYY, reqd, frm){ var retVal = true; var dt = validDate855937(chkDD, chkMM, chkYY, frm); var nDate = frm[chkMM].value  + " " + frm[chkDD].value + " " + frm[chkYY].value; if ( dt == null && reqd == 1 ) {	nDate = ""; retVal = false;	} else if ( (frm[chkDD].value != "" || frm[chkMM].value != "" || frm[chkYY].value != "") && dt == null) { retVal = false; nDate = "";} if ( retVal ) {frm[fldH].value = nDate;} return retVal; }
+function validDate855937(chkDD, chkMM, chkYY, frm) {var objDate = null;	if ( frm[chkDD].value != "" && frm[chkMM].value != "" && frm[chkYY].value != "" ) {var mSeconds = (new Date(frm[chkYY].value - 0, frm[chkMM].selectedIndex - 1, frm[chkDD].value - 0)).getTime();var objDate = new Date();objDate.setTime(mSeconds);if (objDate.getFullYear() != frm[chkYY].value - 0 || objDate.getMonth()  != frm[chkMM].selectedIndex - 1  || objDate.getDate() != frm[chkDD].value - 0){objDate = null;}}return objDate;}
+function _checkSubmit855937(frm){
+if ( !CheckField855937("fldfirstname", frm) ) { 
+   alert("Please enter the First Name");
+   return false;
+}
+if ( !isemail(frm["fldEmail"].value) ) { 
+   alert("Please enter the Email");
+   return false;
+}
+ return true; }
+</script>
+</head>
+  <body>
+    <ul class="cb-slideshow">
+      <li><span>Image 01</span></li>
+      <li><span>Image 02</span></li>
+      <li><span>Image 03</span></li>
+      <li><span>Image 04</span></li>
+      <li><span>Image 05</span></li>
+      <li><span>Image 06</span></li>
+    </ul>
+    <div class="container">
+      <div class="box">
+        <div>
+          <h1><span style="color:red;">FREE</span> <span style="color:blue;">DONE FOR YOU!</span></h1>
+        </div>
+        <div>
+          <h2>An Extraordinary ReadyMade Pack of Squeezepage Funnel Materials</h2>
+        </div>
+        <center><div style="width:80%;">
+          <h3>What will you get;<br/>
+		* FREE One Time Offer Funnel Pages!<br/>
+		* Complete Squeeze Material Like This One!<br/>
+		* FREE Surprise Bonuses eBooks for WEEKLY!<br/>
+		* FREE Bonuses WORK FROM HOME JOBS Courses!</h3>
+        </div></center>
+        <div>
+          <form method="POST" action="https://lb.benchmarkemail.com//code/lbform" name="frmLB855937"> 
+<input type=hidden name=successurl value="http://blogginggurupro.blogspot.com/p/dfysfthanks.html" />
+<input type=hidden name=errorurl value="https://lb.benchmarkemail.com//Code/Error" />
+<input type=hidden name=token value="mFcQnoBFKMTn4rIgOEIXbeZXUawFafLCOjxV0b%2BRsxIF7QYrl9KV0w%3D%3D" />
+<input type=hidden name=doubleoptin value="" />
+            <div><input placeholder="Enter First Name" name="fldfirstname" required="required"
+                type="fldfirstname" class="bmform_frm855937"></div>
+            <div><input placeholder="Enter Your Email" name="fldEmail" required="required"
+                type="fldEmail" class="bmform_frm855937"></div>
+            <button type="submit" krydebug="1751" class=bmform_submit855937>DOWNLOAD NOW</button> </form>
+        </div>
+        <div class="privacy"> Just Download Now by complete the form above with your first name and email address. </div>
+      </div>
+    </div>
+  </body>
+</html>
