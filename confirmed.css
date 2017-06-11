@@ -30,14 +30,14 @@
         text-transform: uppercase;
         position:fixed;
         top:0px;
-        z-index:1000000;
+        z-index:1000001;
       }
       
       #btn_container {
         position: fixed;
         bottom: 25px;
         right: 50px;
-        z-index:1000000;
+        z-index:1000001;
       }
       
       .btn {
@@ -58,7 +58,6 @@
       }
       
      .slideUp{
-        z-index:1000000;
         animation-name: slideUp;
         -webkit-animation-name: slideUp;	
       
