@@ -39,7 +39,7 @@
         z-index:1000001;
       }
       
-      #btn {
+      .btn {
         display: block;
         font-size: 18px;
         font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -56,7 +56,7 @@
         color: #fbfbfb;
       }
       
-     #slideUp{
+     .slideUp{
         animation-name: slideUp;
         -webkit-animation-name: slideUp;	
       
