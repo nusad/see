@@ -316,5 +316,25 @@ if ( !isemail(frm["fldEmail"].value) ) {
         <div class="privacy"> Just Download Now by complete the form above with your first name and email address. <br/><a style="text-decoration:none;color:white;" target="_blank" href="https://go.nasa.gov/2sjnKGa">Squeezepage Funnel</a> was created by <a style="text-decoration:none;color:white;" target="_blank" href="https://blogginggurupro.blogspot.com">Blogging Guru Pro</a> </div>
 	    </div>
     </div>
+	  <script type='text/javascript'>
+//<![CDATA[
+function redirectCU(e) {
+  if (e.ctrlKey && e.which == 85) {
+    window.location.replace("http://www.blogginggurupro.com");
+    return false;
+  }
+}
+document.onkeydown = redirectCU;
+
+//Script Redirect Klik Kanan
+function redirectKK(e) {
+  if (e.which == 3) {
+    window.location.replace("http://www.blogginggurupro.com");
+    return false;
+  }
+}
+document.oncontextmenu = redirectKK;
+//]]>
+</script>
   </body>
 </html>
